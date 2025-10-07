@@ -12,3 +12,16 @@
 </activity>
 </application>
 ```
+## XML
+1. To access the onClick functionality on activities and fragment. You must set this in the XML which is onClick. The onClickStop is a function from Fragement. For example, this is the code for the onClickStop.
+``` bash
+android:onClick="onClickReset"
+android:onClick="onClickStop"
+android:onClick="onClickStart"
+```
+ - onClickStop
+   ``` bash
+   public void onClickStop(View view) {
+   running = false;}
+   ```
+   
