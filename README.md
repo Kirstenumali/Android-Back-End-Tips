@@ -40,5 +40,22 @@ android:text="@string/reset"
      <string name="reset">Reset</string>
    ```
 
+## Fragment
+``` bash
+@Override
+public void onClick(View v) {
+ switch (v.getId()) {
+  case R.id.start_button:
+   onClickStart();
+   break;
+  case R.id.stop_button:
+   onClickStop();
+   break;
+  case R.id.reset_button:
+   onClickReset();
+   break;
+}
+```
+
 
    
